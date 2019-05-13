@@ -1,3 +1,3 @@
-export default function serve() {
-    return "HEY YOU"
+export default function contents() {
+    return "HEY YOU";
 }
