@@ -1,4 +1,8 @@
-export default function init() {
+import contents from "./contents";
+
+function init() {
     const root = document.getElementById("root");
-    root.innerHTML = "HEY DUDE"
-}
+    root.innerHTML = contents();
+};
+
+init();
