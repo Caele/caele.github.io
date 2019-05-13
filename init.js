@@ -1,4 +1,4 @@
-import contents from "./contents";
+import contents from "./contents.js";
 
 function init() {
     const root = document.getElementById("root");
